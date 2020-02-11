@@ -20,9 +20,9 @@ function buildTable(data){
         });
     })
 }
-// Event that Triggers a Function When the Button is Clicked
+// Create Even that triggers a Function when the button is clicked
 function handleClick(){
-    // Prevents the Page from Refreshing
+    // Prevent the webpage from refreshing
     d3.event.preventDefault();
     // Select HTML Input Element & Get the Value Property of that Input Element
     let date = d3.select("#datetime").property("value");
